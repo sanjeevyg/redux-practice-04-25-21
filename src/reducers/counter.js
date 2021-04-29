@@ -1,6 +1,6 @@
 const counterReducers = (state = 0, action) => {
     switch(action.type) {
-        case 'INCREMENT':
+        case 'INCREMENTT':
             return state + action.payload
         case 'DECREMENT':
             return state - 1
