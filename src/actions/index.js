@@ -7,5 +7,6 @@ export const increment = (nr) => {
 export const decrement = () => {
     return {
         type: 'DECREMENT'
+        
     }
 }
