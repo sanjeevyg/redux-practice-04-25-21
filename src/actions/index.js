@@ -1,12 +1,11 @@
 export const increment = (nr) => {
     return {
-        type: 'INCREMENTTT', 
+        type: 'INCREMENT', 
         payload: nr
     }
 }
 export const decrement = () => {
     return {
-        type: 'DECREMENTTTTTT'
-
+        type: 'DECREMENT'
     }
 }
